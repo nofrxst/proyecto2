@@ -1,0 +1,47 @@
+.popular-secundary {
+    margin-top: 33px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-areas: "article1 article2 article3";
+
+
+    .popular-secunday-article1{
+        grid-area: article1;
+        padding-bottom: 50px;
+    }
+
+    .popular-secunday-article2{
+        grid-area: article2;
+        padding-bottom: 50px;
+    }
+    .popular-secunday-article3{
+        padding-bottom: 50px;
+        grid-area: article3;
+    }
+
+    .popular-secunday-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 13px;
+        height: 250px;
+        text-align: justify;
+    }
+
+    .article-tittle {
+        & h3{
+            font-size: 22px;
+            line-height: 32px;
+            margin-bottom: 10px;
+        }
+
+        & p {
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.04em;
+            color: black;
+            opacity: 0.6;  
+        }
+    }
+}

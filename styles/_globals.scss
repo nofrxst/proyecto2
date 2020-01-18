@@ -1,0 +1,38 @@
+*{
+        padding: 0;
+        margin: 0;
+}
+    
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    
+}
+
+.tittle{
+   
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #356EAD;
+    font-family: Helvetica;
+    opacity: 0.8;
+}

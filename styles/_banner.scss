@@ -1,0 +1,40 @@
+
+.banner {
+    height: 250px;
+    width: 100%;
+    position: relative;
+
+    .bannertittle{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .content{
+        text-align: center;
+        width: 50%;
+        color: white;
+        
+        & h1{
+            font-weight: normal;
+            font-size: 44px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    
+        & p {
+            letter-spacing: 0.04em;
+            font-weight: normal;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+    }
+
+
+}

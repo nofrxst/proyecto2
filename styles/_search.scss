@@ -1,0 +1,33 @@
+.search {
+    margin-top: 56px;
+
+    .container_search {
+        display: flex;
+        align-items: center;
+        background: #f4f4f4;
+        border-radius: 10px;
+        height: 56px;
+        padding: 0 27px;
+    }
+
+    & img {
+        margin-right: 10px;
+    }
+
+    & input{
+        border: none;
+        background: none;
+        width: 90%;
+        height: 40%;
+        transition: .5s ;
+
+        &:hover{
+            border: none;
+            background: none;
+            width: 90%;
+            height: 60%;
+            font-size: 20px;
+        }
+    }
+}
+
